@@ -6,8 +6,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-// import Home from './pages/home/Home.jsx';
-// import SingleProduct from './pages/SingleProduct.jsx';
+import Home from './pages/home/Home.jsx';
+import SingleProduct from './pages/SingleProduct.jsx';
 
 
 const router = createBrowserRouter([
@@ -15,14 +15,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <Home />,
-      // },
-      // {
-      //   path: "/shop/:id",
-      //   element: <SingleProduct />,
-      // }
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/shop/:id",
+        element: <SingleProduct />,
+      }
     ]
   },
 ]);
