@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Category = () => {
+const Logos = () => {
   const companyLogos = [
     { id: 1, image: "/images/company/brand1.png" },
     { id: 2, image: "/images/company/brand2.png" },
@@ -57,4 +57,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Logos;
