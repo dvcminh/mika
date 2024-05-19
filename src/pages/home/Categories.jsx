@@ -58,7 +58,7 @@ const Categories = () => {
           <IoIosArrowForward className='m-auto text-xl font-bold'/>
           </button>
         </div>
-    </div>
+      </div>
 
     </div>
   )

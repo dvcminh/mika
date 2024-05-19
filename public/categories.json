@@ -3,13 +3,25 @@
         "id" : 1,
         "name" : "Thời Trang Nam",
         "image" : "https://down-vn.img.susercontent.com/file/687f3967b7c2fe6a134a2c11894eea4b_tn",
-        "link" : "/category/men-fashion"
+        "link" : "/category/men-fashion",
+        "subcategories": [
+            { "id": 101, "name": "Đồ ngủ", "link": "/category/men-fashion/dongu" },
+            { "id": 102, "name": "Vớ/Tất", "link": "/category/men-fashion/votat" },
+            { "id": 103, "name": "Áo", "link": "/category/men-fashion/ao" },
+            { "id": 104, "name": "Quần dài", "link": "/category/men-fashion/quandai" },
+            { "id": 105, "name": "Quần đùi", "link": "/category/men-fashion/quandui" }
+        ]
     },
     {
         "id": 2,
         "name" : "Điện Thoại & Phụ Kiện",
         "image" : "https://down-vn.img.susercontent.com/file/31234a27876fb89cd522d7e3db1ba5ca_tn",
-        "link" : "/category/phones-accessories"
+        "link" : "/category/phones-accessories",
+        "subcategories": [
+            { "id": 201, "name": "Điện thoại", "link": "/category/phones-accessories/dienthoai" },
+            { "id": 202, "name": "Phụ kiện", "link": "/category/phones-accessories/phukien" },
+            { "id": 203, "name": "Máy tính bảng", "link": "/category/phones-accessories/maytinhbang" }
+        ]
     },
     {
         "id": 3, 
