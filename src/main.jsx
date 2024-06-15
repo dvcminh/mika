@@ -13,6 +13,7 @@ import Login from './pages/Login/Login.jsx';
 import Register from './pages/Register/Register.jsx';
 import AdminLayout from './layout/AdminLayout.jsx';
 import ManageCustomerPage from './pages/Admin/ManageCustomer/ManageCustomer.jsx';
+import SearchResult from './pages/SearchResult.jsx';
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register />
+      },
+      {
+        path: "/search",
+        element: <SearchResult />
       },
       {
         path: "/admin",

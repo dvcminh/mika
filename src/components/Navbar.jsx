@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaSearch, FaUser, FaShoppingBag, FaTimes} from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import logo from "/logo.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import {nikaApi} from "../api/nikaApi";
 
 const Navbar = () => {
@@ -13,6 +13,11 @@ const Navbar = () => {
     const [isAdmin, setIsAdmin] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
     const navigate = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => {
+        setSearchQuery("");
+    }, [location]);
 
     useEffect(() => {
         const token = localStorage.getItem('accessToken');
@@ -49,25 +54,13 @@ const Navbar = () => {
     const handleSearchSubmit = async (e) => {
 
         console.log(searchQuery);
-        //navigate(`/search?query=${searchQuery}`);
-        // if(searchQuery.trim() !== "") {
-        //     try{
-        //         const response = await nikaApi.newGetProductsByCategory(
-        //             searchQuery,
-        //             null,
-        //             null,
-        //             null,
-        //             null,
-        //             0,
-        //             50,
-        //             "price",
-        //             "ASC"
-        //         )
-        //     }
-        //     catch(err) {
-        //         console.log(err);
-        //     }
-        // }
+        navigate(`/search?query=${searchQuery}`);
+    }
+
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            handleSearchSubmit(e);
+        }
     }
     
     const navItems = [
@@ -100,12 +93,13 @@ const Navbar = () => {
                             <input 
                                 type="text" 
                                 id="search-navbar" 
-                                className="block w-full min-w-[500px] p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 " 
+                                className="block w-full min-w-[500px] p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg rounded-r-none bg-gray-50 " 
                                 placeholder="Search..." 
                                 value={searchQuery}
                                 onChange={handleSearchChange}
+                                onKeyDown={handleKeyDown}
                             />
-                            <button onClick={() => handleSearchSubmit()} className='text-white font-semibold py-2 px-6 bg-[#F7452F] rounded-md hover:bg-[#ea4531] hover:text-gray-200'>Search</button>
+                            <button onClick={() => handleSearchSubmit()} className='text-white font-semibold py-2 px-6 bg-[#F7452F] rounded-md rounded-l-none hover:bg-[#ea4531] hover:text-gray-200'>Search</button>
                         </div>
                     </div>
                     
