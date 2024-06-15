@@ -84,7 +84,7 @@ const ProductList = () => {
                     sortBy,
                     direction
                 );
-                //console.log("response:", response.data);
+                console.log("response:", response.data);
                 setProducts(response.data.data);
                 //setAllProducts(response.data.content);
                 setTotalPages(response.data.totalPages);
@@ -245,6 +245,9 @@ const ProductList = () => {
         }
         else if(type === 'tiki') {
             return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
+        }
+        else if(type === 'shopee') {
+            return price;
         }
         return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
         
