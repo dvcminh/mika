@@ -9,6 +9,7 @@ const Products = () => {
     const [selectedCategory, setSelectedCategory] = useState('all'); // ['All Products', 'T-shirt', 'Hoodies', 'Bag'
     const [sortOption, setSortOption] = useState('default'); // ['default', 'A-Z', 'Z-A', 'low-to-high', 'high-to-low'
 
+
     // get data in products.json
     useEffect(() => {
         const fetchData = async () => {

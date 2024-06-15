@@ -50,10 +50,6 @@ const BestSellers = () => {
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
               pagination={{
                 clickable: true,
               }}
@@ -79,7 +75,7 @@ const BestSellers = () => {
                 bestSellers.map((item) => (
                     <SwiperSlide key={item.id}>
                         <div>
-                            <Link to={`/shop/${item.id}`}>
+                            <Link to={`/category/${item.id}`}>
                                 <img src={item.image} alt="" className='mx-auto w-full hover:scale-105 transition-all duration-200'/>
                             </Link>
                             <div className='mt-4 px-4'>

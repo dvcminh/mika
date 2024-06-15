@@ -3,133 +3,203 @@
         "id" : 1,
         "name" : "Thời Trang Nam",
         "image" : "https://down-vn.img.susercontent.com/file/687f3967b7c2fe6a134a2c11894eea4b_tn",
-        "link" : "/category/men-fashion",
+        "link" : "/category/thoitrangnam",
         "subcategories": [
-            { "id": 101, "name": "Đồ ngủ", "link": "/category/men-fashion/dongu" },
-            { "id": 102, "name": "Vớ/Tất", "link": "/category/men-fashion/votat" },
-            { "id": 103, "name": "Áo", "link": "/category/men-fashion/ao" },
-            { "id": 104, "name": "Quần dài", "link": "/category/men-fashion/quandai" },
-            { "id": 105, "name": "Quần đùi", "link": "/category/men-fashion/quandui" }
+            { "id": 101, "name": "Áo sơ mi nam", "link": "/category/thoitrangnam/aosominam" },
+            { "id": 102, "name": "Áo thun nam", "link": "/category/thoitrangnam/aothunnam" },
+            { "id": 103, "name": "Áo khoác nam", "link": "/category/thoitrangnam/aovestnam" }, 
+            { "id": 104, "name": "Quần dài nam", "link": "/category/thoitrangnam/quandainam" },
+            { "id": 105, "name": "Đồ lót nam", "link": "/category/thoitrangnam/dolotnam" }
         ]
     },
     {
         "id": 2,
         "name" : "Điện Thoại & Phụ Kiện",
         "image" : "https://down-vn.img.susercontent.com/file/31234a27876fb89cd522d7e3db1ba5ca_tn",
-        "link" : "/category/phones-accessories",
+        "link" : "/category/dienthoai",
         "subcategories": [
-            { "id": 201, "name": "Điện thoại", "link": "/category/phones-accessories/dienthoai" },
-            { "id": 202, "name": "Phụ kiện", "link": "/category/phones-accessories/phukien" },
-            { "id": 203, "name": "Máy tính bảng", "link": "/category/phones-accessories/maytinhbang" }
+            { "id": 201, "name": "Smartphone", "link": "/category/dienthoai/smartphone" },
+            { "id": 202, "name": "Điện thoại bàn", "link": "/category/dienthoai/dienthoaiban" },
+            { "id": 203, "name": "Máy tính bảng", "link": "/category/dienthoai/maytinhbang" }
         ]
     },
     {
         "id": 3, 
-        "name" : "Thiết Bị Điện Tử",
+        "name" : "Thiết Bị Điện",
         "image" : "https://down-vn.img.susercontent.com/file/978b9e4cb61c611aaaf58664fae133c5_tn",
-        "link" : "/category/electronic-devices"
+        "link" : "/category/thietbidien",
+        "subcategories": [
+            { "id": 31, "name": "Máy giặt", "link": "/category/thietbidien/maygiat" },
+            { "id": 32, "name": "Máy lạnh", "link": "/category/thietbidien/maylanh" },
+            { "id": 33, "name": "Tivi", "link": "/category/thietbidien/tivi" },
+            { "id": 34, "name": "Tủ lạnh", "link": "/category/thietbidien/tulanh" }
+        ]
     },
     {
         "id": 4, 
         "name" : "Máy Tính & Laptop",
         "image" : "https://down-vn.img.susercontent.com/file/c3f3edfaa9f6dafc4825b77d8449999d_tn",
-        "link" : "/category/laptops"
-    },
-    {
-        "id": 5,
-        "name": "Máy Ảnh & Máy Quay Phim",
-        "image": "https://down-vn.img.susercontent.com/file/ec14dd4fc238e676e43be2a911414d4d_tn",
-        "link": "/category/cameras"
+        "link" : "/category/maytinh",
+        "subcategories": [
+            { "id": 101, "name": "Laptop", "link": "/category/maytinh/laptop" },
+            { "id": 102, "name": "PC", "link": "/category/maytinh/pc" },
+            { "id": 103, "name": "Linh kiện máy tính", "link": "/category/maytinh/linhkien" }
+        ]
     },
     {
         "id": 6,
         "name": "Đồng Hồ",
         "image": "https://down-vn.img.susercontent.com/file/86c294aae72ca1db5f541790f7796260_tn",
-        "link": "/category/watches"
+        "link": "/category/dongho",
+        "subcategories": [
+            { "id": 61, "name": "Đồng hồ nam", "link": "/category/dongho/donghonam" },
+            { "id": 62, "name": "Đồng hồ nữ", "link": "/category/dongho/donghonu" },
+            { "id": 63, "name": "Đồng hồ trẻ em", "link": "/category/dongho/donghotreem" }
+        ]
     },
     {
         "id": 7,
         "name": "Giày Dép Nam",
         "image": "https://down-vn.img.susercontent.com/file/74ca517e1fa74dc4d974e5d03c3139de_tn",
-        "link": "/category/mens-shoes"
-    },
-    {
-        "id": 8,
-        "name": "Thiết Bị Điện Gia Dụng",
-        "image": "https://down-vn.img.susercontent.com/file/7abfbfee3c4844652b4a8245e473d857_tn",
-        "link": "/category/home-appliances"
+        "link": "/category/giaydepnam",
+        "subcategories": [
+            { "id": 71, "name": "Dép nam", "link": "/category/giaydepnam/depnam" },
+            { "id": 72, "name": "Giày sandals nam", "link": "/category/giaydepnam/giaysandalsnam" },
+            { "id": 73, "name": "Giày tây nam", "link": "/category/giaydepnam/giaytaynam" },
+            { "id": 73, "name": "Giày thể thao nam", "link": "/category/giaydepnam/giaythethaonam" }
+        ]
     },
     {
         "id": 9,
-        "name": "Thể Thao & Du Lịch",
+        "name": "Thể Thao",
         "image": "https://down-vn.img.susercontent.com/file/6cb7e633f8b63757463b676bd19a50e4_tn",
-        "link": "/category/sports-travel"
+        "link": "/category/thethao",
+        "subcategories": [
+            { "id": 91, "name": "Phụ kiện thể thao", "link": "/category/thethao/phukienthethao" },
+            { "id": 92, "name": "Thể thao chơi vợt", "link": "/category/thethao/thethaochoivot" },
+            { "id": 93, "name": "Thể thao đồng đội", "link": "/category/thethao/thethaodongdoi" },
+            { "id": 93, "name": "Trang phục thể thao", "link": "/category/thethao/trangphucthethao" }
+        ]
     },
     {
         "id": 10,
-        "name": "Ô Tô & Xe Máy & Xe Đạp",
+        "name": "Ô Tô, Xe Máy, Xe Đạp",
         "image": "https://down-vn.img.susercontent.com/file/3fb459e3449905545701b418e8220334_tn",
-        "link": "/category/vehicles"
+        "link": "/category/xeco",
+        "subcategories": [
+            { "id": 101, "name": "Ô tô", "link": "/category/xeco/oto" },
+            { "id": 102, "name": "Xe máy", "link": "/category/xeco/xemay" },
+            { "id": 103, "name": "Xe đạp", "link": "/category/xeco/xedap" },
+            { "id": 104, "name": "Phụ kiện xe", "link": "/category/xeco/phukienxe" }
+        ]
     },
     {
         "id": 11,
         "name": "Thời Trang Nữ",
         "image": "https://down-vn.img.susercontent.com/file/75ea42f9eca124e9cb3cde744c060e4d_tn",
-        "link": "/category/women-fashion"
+        "link": "/category/thoitrangnu",
+        "subcategories": [
+            { "id": 111, "name": "Đầm", "link": "/category/thoitrangnu/dam" },
+            { "id": 112, "name": "Áo thun nữ", "link": "/category/thoitrangnu/aothunnu" },
+            { "id": 113, "name": "Quần nữ", "link": "/category/thoitrangnu/quannu" },
+            { "id": 114, "name": "Chân váy", "link": "/category/thoitrangnu/chanvay" },
+            { "id": 115, "name": "Đồ ngủ nữ", "link": "/category/thoitrangnu/dongunu" }
+
+        ]
     },
     {
         "id": 12,
         "name": "Mẹ & Bé",
         "image": "https://down-vn.img.susercontent.com/file/099edde1ab31df35bc255912bab54a5e_tn",
-        "link": "/category/mother-baby"
+        "link": "/category/mevabe",
+        "subcategories": [
+            { "id": 121, "name": "Chăm sóc mẹ mang thai", "link": "/category/mevabe/chamsocmemangthai" },
+            { "id": 122, "name": "Dinh dưỡng cho bé", "link": "/category/mevabe/dinhduongchobe" },
+            { "id": 123, "name": "Dinh dưỡng cho mẹ", "link": "/category/mevabe/dinhduongchome" },
+            { "id": 124, "name": "Đồ chơi", "link": "/category/mevabe/dochoi" },
+            { "id": 125, "name": "Tã bỉm", "link": "/category/mevabe/tabim" }
+
+        ]
     },
     {
         "id": 13,
         "name": "Nhà Cửa & Đời Sống",
         "image": "https://down-vn.img.susercontent.com/file/24b194a695ea59d384768b7b471d563f_tn",
-        "link": "/category/home-living"
+        "link": "/category/nhacua",
+        "subcategories": [
+            { "id": 131, "name": "Giặt giũ", "link": "/category/nhacua/giatgiu" },
+            { "id": 132, "name": "Vệ sinh nhà bếp", "link": "/category/nhacua/vesinhnhabep" },
+            { "id": 133, "name": "Vệ sinh nhà cửa", "link": "/category/nhacua/vesinhnhacua" },
+            { "id": 134, "name": "Vệ sinh nhà tắm", "link": "/category/nhacua/vesinhnhatam" }
+        ]
     },
     {
         "id": 14,
         "name": "Sắc Đẹp",
         "image": "https://down-vn.img.susercontent.com/file/ef1f336ecc6f97b790d5aae9916dcb72_tn",
-        "link": "/category/beauty"
-    },
-    {
-        "id": 15,
-        "name": "Sức Khỏe",
-        "image": "https://down-vn.img.susercontent.com/file/49119e891a44fa135f5f6f5fd4cfc747_tn",
-        "link": "/category/health"
+        "link": "/category/lamdep",
+        "subcategories": [
+            { "id": 141, "name": "Trang điểm", "link": "/category/lamdep/trangdiem" },
+            { "id": 142, "name": "Chăm sóc da mặt", "link": "/category/lamdep/chamsocdamat" },
+            { "id": 143, "name": "Dụng cụ làm đẹp", "link": "/category/lamdep/dungculamdep" },
+            { "id": 144, "name": "Chăm sóc cơ thể", "link": "/category/lamdep/chamsoccothe" }
+        ]
     },
     {
         "id": 16,
         "name": "Giày Dép Nữ",
         "image": "https://down-vn.img.susercontent.com/file/48630b7c76a7b62bc070c9e227097847_tn",
-        "link": "/category/womens-shoes"
+        "link": "/category/giaydepnu",
+        "subcategories": [
+            { "id": 161, "name": "Giày cao gót", "link": "/category/giaydepnu/giaycaogot" },
+            { "id": 162, "name": "Giày sandals nữ", "link": "/category/giaydepnu/giaysandalsnu" },
+            { "id": 163, "name": "Giày thể thao nữ", "link": "/category/giaydepnu/giaythethaonu" }
+        ]
     },
     {
         "id": 17,
         "name": "Túi Ví Nữ",
         "image": "https://down-vn.img.susercontent.com/file/fa6ada2555e8e51f369718bbc92ccc52_tn",
-        "link": "/category/womens-bags"
-    },
-    {
-        "id": 18,
-        "name": "Phụ Kiện & Trang Sức Nữ",
-        "image": "https://down-vn.img.susercontent.com/file/8e71245b9659ea72c1b4e737be5cf42e_tn",
-        "link": "/category/womens-accessories"
+        "link": "/category/tuivinu",
+        "subcategories": [
+            { "id": 171, "name": "Túi tote nữ", "link": "/category/tuivinu/tuitotenu" },
+            { "id": 172, "name": "Túi xách nữ", "link": "/category/tuivinu/tuixachnu" },
+            { "id": 173, "name": "Ví nữ", "link": "/category/tuivinu/vinu" }
+        ]
     },
     {
         "id": 19,
         "name": "Bách Hóa Online",
         "image": "https://down-vn.img.susercontent.com/file/c432168ee788f903f1ea024487f2c889_tn",
-        "link": "/category/online-grocery"
+        "link": "/category/bachhoaonline",
+        "subcategories": [
+            { "id": 141, "name": "Đồ uống", "link": "/category/bachhoaonline/douong" },
+            { "id": 142, "name": "Gia vị chế biến", "link": "/category/bachhoaonline/giavi" },
+            { "id": 143, "name": "Rượu, bia, đồ uống có cồn", "link": "/category/bachhoaonline/ruoubia" },
+            { "id": 144, "name": "Thực phẩm đóng họp", "link": "/category/bachhoaonline/thucphamdonghop" }
+        ]
     },
     {
         "id": 20,
         "name": "Nhà Sách Online",
         "image": "https://down-vn.img.susercontent.com/file/36013311815c55d303b0e6c62d6a8139_tn",
-        "link": "/category/online-bookstore"
+        "link": "/category/sach",
+        "subcategories": [
+            { "id": 141, "name": "Sách tiếng Anh", "link": "/category/sach/sachtienganh" },
+            { "id": 142, "name": "Sách tiếng Việt", "link": "/category/sach/sachtiengviet" },
+            { "id": 143, "name": "Văn phòng phẩm", "link": "/category/sach/vanphongpham" }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Túi Ví Nam",
+        "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSc_eCkCRQ7ERjVzzbNeMiyB9m3KQb8hXphcZV8mrRlTKgxs3oSdElW8QvYgnntUYWny2xZihAMVZd0jWQ9oXgg4QrrEmeG8kjqghMohX5bEwDOxPcYtTqd1LLOLyMsYVXn3AQoBA&usqp=CAc",
+        "link": "/category/tuivinam",
+        "subcategories": [
+            { "id": 211, "name": "Túi đeo chéo nam", "link": "/category/tuivinam/tuideocheonam" },
+            { "id": 212, "name": "Túi xách nam", "link": "/category/tuivinam/tuixachnam" },
+            { "id": 213, "name": "Ví nam", "link": "/category/tuivinam/vinam" }
+        ]
     }
     
 ]

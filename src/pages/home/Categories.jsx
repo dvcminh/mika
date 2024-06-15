@@ -45,7 +45,7 @@ const Categories = () => {
         <div className="grid xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-4 grid-cols-1 min-h-[290px]">
           {categories.slice(currentIndex, currentIndex + itemsPerPage).map(category => (
             <Link to={category.link} key={category.id} className="text-center p-4 border hover:shadow-md hover:bg-gray-100 transition-all duration-200 min-h-[145px] max-h-[50%]">
-              <img src={category.image} alt={category.name} className="w-16 h-16 mx-auto" />
+              <img src={category.image} alt={category.name} className="w-16 h-16 mx-auto rounded-full" />
               <p className="mt-2 text-sm font-medium">{category.name}</p>
             </Link>
           ))}

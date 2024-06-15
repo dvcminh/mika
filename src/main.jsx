@@ -9,6 +9,10 @@ import './index.css'
 import Home from './pages/home/Home.jsx';
 import SingleProduct from './pages/SingleProduct.jsx';
 import ProductList from './pages/ProductList.jsx';
+import Login from './pages/Login/Login.jsx';
+import Register from './pages/Register/Register.jsx';
+import AdminLayout from './layout/AdminLayout.jsx';
+import ManageCustomerPage from './pages/Admin/ManageCustomer/ManageCustomer.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,7 +25,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/shop/:id",
+        path: "/product/:id",
         element: <SingleProduct />,
       },
       {
@@ -31,6 +35,24 @@ const router = createBrowserRouter([
       {
         path: "/category/:categoryName/:subcategoryName",
         element: <ProductList />,
+      },
+      {
+        path: "/login",
+        element: <Login />
+      },
+      {
+        path: "/register",
+        element: <Register />
+      },
+      {
+        path: "/admin",
+        element: <AdminLayout />,
+        children: [
+          {
+            path: "/admin/managecustomer",
+            element: <ManageCustomerPage />
+          }
+        ]
       }
     ]
   },
